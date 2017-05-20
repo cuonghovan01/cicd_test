@@ -61,6 +61,7 @@ function whenEmptyStringIsUsedThenReturnZero() {
 }
 
 function whenNegativeNumbersAreUsedThenReturnException() {
+  console.log('testing: whenNegativeNumbersAreUsedThenReturnException');
   var expectedResult = false;
   var argument = "-2,4";
   var sum = calculator(argument);
@@ -87,3 +88,11 @@ function whenStringWithMultipleDemilitersAreUsedThenReturnTheirSum() {
   var sum = calculator(argument);
   return sum === expectedResult;
 }
+
+whenMoreThanTwoNumbersAreUsedThenReturnException();
+whenTwoNumbersAreUsedThenReturnTheirSum();
+whenEmptyStringIsUsedThenReturnZero();
+whenNegativeNumbersAreUsedThenReturnException();
+whenNumbersAreLargerThanOneThousandThenReturnException();
+whenOneNumberHasNewLineCharacterThenReturnTheirSum();
+whenStringWithMultipleDemilitersAreUsedThenReturnTheirSum();
