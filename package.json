@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start karma.conf.js --single-run"
+    "test": "karma start karma.conf.js --single-run",
+    "clean": "rm -rf ./public/*.js",
+    "build": "cp ./src/sum.js ./public/"
   },
   "author": "",
   "license": "ISC",
