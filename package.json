@@ -1,0 +1,24 @@
+{
+  "name": "javascript-unittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "*",
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-karma": "*",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-launcher": "*",
+    "karma-mocha": "*",
+    "karma-phantomjs-launcher": "*",
+    "load-grunt-tasks": "*",
+    "mocha": "*"
+  }
+}
