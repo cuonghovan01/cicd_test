@@ -7,7 +7,7 @@ describe("Sum function", function() {
   it('should Return Their Sum when Two Numbers Are Used', function() { 
     var argument = "2, 3";
     var sum = calculator(argument);
-    expect(sum).to.equal(4);
+    expect(sum).to.equal(5);
   });
   it('should return Zero when Empty String Is Used', function() {
     var argument = "";
