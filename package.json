@@ -20,5 +20,9 @@
     "karma-phantomjs-launcher": "*",
     "load-grunt-tasks": "*",
     "mocha": "*"
+  },
+  "dependencies": {
+    "karma-coverage": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.3"
   }
 }
