@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.conf.js --single-run",
+    "lint": "./node_modules/.bin/eslint ./src/*.js",
     "clean": "rm -rf ./public/*.js",
-    "build": "cp ./src/sum.js ./public/"
+    "build": "cp -a ./src/sum.js ./public/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "*",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
     "grunt": "*",
     "grunt-contrib-jshint": "*",
     "grunt-karma": "*",
